@@ -1,4 +1,4 @@
-# photograph-site
+# photography-site1
 
 ## Project setup
 ```
