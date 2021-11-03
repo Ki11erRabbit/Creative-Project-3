@@ -41,11 +41,18 @@
 </script>
 
 <style>
+.content p{
+  display: flex;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
 .content img {
   padding-top: 1%;
   padding-left: 3%;
   padding-bottom: 1%;
-  width: 100%;
+  max-width: 28%;
   object-fit: cover;
   display: flex;
 }
