@@ -6,6 +6,7 @@
       <div class="page">
       <div class="content">
 
+          <img alt="Japanese-Colonel-Sanders" src="../assets/JCS.jpg">
           <!--<img class="photo" src="images/photos/JCS.jpg" alt="Japanese-Colonel-Sanders">    to be added back in later-->
 
         <p>In need of a third or fith hand for all of those precious moments in
@@ -19,9 +20,8 @@
     </div>
 
     <div class="footer">
-
-    <a href="https://github.com/Ki11erRabbit/Creative-Project-3"> GitHub
-    <p>Made by Alec Davis and Louisa Dayton</p></a>
+      <a href="https://github.com/Ki11erRabbit/Creative-Project-3"> GitHub
+        <p>Made by Alec Davis and Louisa Dayton</p></a>
     </div>
   </div>
 </template>
@@ -41,44 +41,12 @@
 </script>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  color: #3c4253; /* a nice dark bluish grey */
-  box-sizing: border-box;
-}
-body {
-  background-color: #d8dce5; /* blueish light grey */
-}
-
-.page {
+.content img {
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-bottom: 1%;
+  width: 100%;
+  object-fit: cover;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: #d8dce5; /* blueish light grey */
 }
-
-.content {
-  background-color: #fff9ec; /* warm tan-white color */
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid #3c4253; /* a nice dark bluish grey */
-  border-radius: 5px;
-}
-
-.content {
-  padding: 100px;
-}
-.footer {
-  background-color: #fff9ec; /* warm tan-white color */
-  border: 2px solid #3c4253 ; /* a nice dark bluish grey */
-  border-radius: 5px;
-  box-sizing: border-box;
-  text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
-
-
 </style>
