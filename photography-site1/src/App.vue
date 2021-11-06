@@ -55,6 +55,7 @@ body {
 }
 * a {
   color: #3c4253; /* a nice dark bluish grey */
+  text-decoration: none;
 }
 body {
   background-color: #d8dce5; /* blueish light grey */
