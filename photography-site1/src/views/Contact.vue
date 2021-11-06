@@ -15,7 +15,7 @@ I find myself in the world. I set up this website so that I may lend my passion 
   <h3>All times that I am freely available</h3>
 <template>
   <v-calendar
-    :attributes='attributes'
+:attributes='attributes'
     />
 </template>
 
@@ -31,14 +31,6 @@ I find myself in the world. I set up this website so that I may lend my passion 
 </div>
 
 
-</div>
-
-<div class="footer">
-  <a href="https://github.com/Ki11erRabbit/Creative-Project-3"> GitHub
-    <p>Made by Alec Davis and Louisa Dayton</p></a>
-</div>
-
-  </div>
 </template>
 
 <style scoped>
