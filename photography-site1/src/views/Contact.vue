@@ -83,7 +83,7 @@ h2, h3 {
 <script>
 const dateObject = new Date();
 const thisMonth = dateObject.getMonth();
-const thisYear = dateObject.getFullYear()
+const thisYear = dateObject.getFullYear();
 
 export default {
   data() {
