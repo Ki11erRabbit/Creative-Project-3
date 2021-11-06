@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-  
+
     <h1>About the photographer</h1>
 
   <p>Ever since man figured out how to draw, we have figured out better ways to draw.
@@ -28,15 +28,7 @@ I find myself in the world. I set up this website so that I may lend my passion 
       <input type="button" onclick="location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';" value="reserve time now" />
     </div>
   </div>
-</div>
 
-
-</div>
-
-<div class="footer">
-  <a href="https://github.com/Ki11erRabbit/Creative-Project-3"> GitHub
-    <p>Made by Alec Davis and Louisa Dayton</p></a>
-</div>
 
   </div>
 </template>
