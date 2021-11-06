@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-  
+
     <h1>About the photographer</h1>
 
   <p>Ever since man figured out how to draw, we have figured out better ways to draw.
@@ -13,11 +13,11 @@ I find myself in the world. I set up this website so that I may lend my passion 
 
   <h2>Put in Date and Time to reserve your free consultation</h2>
   <h3>All times that I am freely available</h3>
-<template>
+
   <v-calendar
 :attributes='attributes'
     />
-</template>
+
 
 
 
@@ -28,9 +28,9 @@ I find myself in the world. I set up this website so that I may lend my passion 
       <input type="button" onclick="location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';" value="reserve time now" />
     </div>
   </div>
-</div>
 
 
+  </div>
 </template>
 
 <style scoped>

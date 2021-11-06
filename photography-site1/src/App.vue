@@ -3,7 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/contact">Contact</router-link> |
-      <router-link to="/api">Api</router-link>
+      <router-link to="/api">Photo Edit</router-link>
     </div>
     <div class="page">
       <div class="content">
@@ -17,7 +17,11 @@
   </div>
 </template>
 
-
+<style>
+body {
+  background-color: #d8dce5; /* blueish light grey */
+}
+</style>
 
 <style scoped>
 #app {
@@ -40,7 +44,7 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983; /*TODO change to different color*/
+  color: #697dd7;
 }
 
 
