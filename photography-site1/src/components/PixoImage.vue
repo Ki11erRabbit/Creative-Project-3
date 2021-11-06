@@ -22,6 +22,10 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    img {
+        margin: auto; 
+        margin-top: 30px; 
+        width: 90%;
+    }
 </style>

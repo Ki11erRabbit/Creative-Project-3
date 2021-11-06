@@ -4,15 +4,22 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/contact">Contact</router-link> |
       <router-link to="/api">Api</router-link>
-
     </div>
-    <router-view/>
+    <div class="page">
+      <div class="content">
+        <router-view/>
+      </div>
+    </div>
+    <div class="footer">
+      <a href="https://github.com/Ki11erRabbit/Creative-Project-3"> GitHub
+      <p>Made by Alec Davis and Louisa Dayton</p></a>
+    </div>
   </div>
 </template>
 
 
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

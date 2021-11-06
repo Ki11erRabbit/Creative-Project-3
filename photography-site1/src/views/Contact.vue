@@ -1,9 +1,6 @@
 <template>
   <div class="contact">
-    <div class="page">
-
-
-<div class="content">
+  
     <h1>About the photographer</h1>
 
   <p>Ever since man figured out how to draw, we have figured out better ways to draw.
@@ -44,7 +41,7 @@ I find myself in the world. I set up this website so that I may lend my passion 
   </div>
 </template>
 
-<style>
+<style scoped>
 .content {
   align-content: center;
   display: block;
@@ -77,6 +74,8 @@ h2, h3 {
 .button{
   padding-top: 1%;
 }
+
+
 
 </style>
 
