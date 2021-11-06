@@ -45,13 +45,18 @@ export default {
   margin-bottom: 30px; 
 }
 
+h2 {
+  margin-bottom: 25px; 
+}
+
 .api-content img {
-  padding-top: 1%;
-  padding-left: 3%;
-  padding-bottom: 1%;
+  padding: 7px; 
+  border: 10px solid #808080; 
   max-width: 60%;
   object-fit: cover;
   display: flex;
+  margin-bottom: 30px; 
+  
 }
 
 
