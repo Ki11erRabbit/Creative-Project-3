@@ -44,7 +44,7 @@ body {
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983; /*TODO change to different color*/
+  color: #697dd7;
 }
 
 
