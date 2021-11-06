@@ -13,11 +13,11 @@ I find myself in the world. I set up this website so that I may lend my passion 
 
   <h2>Put in Date and Time to reserve your free consultation</h2>
   <h3>All times that I am freely available</h3>
-<template>
+
   <v-calendar
 :attributes='attributes'
     />
-</template>
+
 
 
 
@@ -28,15 +28,9 @@ I find myself in the world. I set up this website so that I may lend my passion 
       <input type="button" onclick="location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';" value="reserve time now" />
     </div>
   </div>
-<<<<<<< HEAD
 
 
   </div>
-=======
-</div>
-
-
->>>>>>> 7b4eb457187f7cb0063d421ca6c96b71331627bd
 </template>
 
 <style scoped>
