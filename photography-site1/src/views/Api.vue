@@ -1,19 +1,12 @@
 <template>
   <div class="api">
-    <div class="page">
-      <div class="content">
+      <div class="api-content">
           <h1>Upload an image to edit or edit the image below</h1>
           <input type="file" accept="image/jpeg" @change=uploadImage>
 
           <PixoImage id="pImg" v-bind:src="src" @edited="updateSrc" />
       </div> <!-- end of api-content -->
-    </div> <!-- end of page -->
-
-<div class="footer">
-  <a href="https://github.com/Ki11erRabbit/Creative-Project-3"> GitHub
-    <p>Made by Alec Davis and Louisa Dayton</p></a>
-</div>
-
+  
   </div>
 </template>
 
@@ -21,7 +14,7 @@
 import PixoImage from '../components/PixoImage.vue'
 
 export default {
-  name: 'App',
+  name: 'Api',
   components: {
     PixoImage
   },
@@ -44,16 +37,20 @@ export default {
 }
 </script>
 
-<style>
-#pImg {
-  margin: auto; 
-  margin-top: 30px; 
-  width: 90%;  
-}
+<style scoped>
 
-.content h1 {
+.api-content h1 {
   margin-top: 30px; 
   margin-bottom: 30px; 
+}
+
+.api-content img {
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-bottom: 1%;
+  max-width: 30%;
+  object-fit: cover;
+  display: flex;
 }
 
 

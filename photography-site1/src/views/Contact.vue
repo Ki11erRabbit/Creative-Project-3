@@ -1,9 +1,6 @@
 <template>
   <div class="contact">
-    <div class="page">
-
-
-<div class="content">
+  
     <h1>About the photographer</h1>
 
   <p>Ever since man figured out how to draw, we have figured out better ways to draw.
@@ -14,18 +11,10 @@ I find myself in the world. I set up this website so that I may lend my passion 
 
 <!-- TODO replace with someone from this person does not exist <img class="photo" src="/images/photos/Picture-of-me.jpg" alt="photographer">-->
 
-</div>
-</div>
-
-<div class="footer">
-  <a href="https://github.com/Ki11erRabbit/Creative-Project-3"> GitHub
-    <p>Made by Alec Davis and Louisa Dayton</p></a>
-</div>
-
   </div>
 </template>
 
-<style>
+<style scoped>
 .content {
   align-content: center;
   display: block;
@@ -37,5 +26,7 @@ I find myself in the world. I set up this website so that I may lend my passion 
   padding-top: 7%;
   padding-bottom: 7%;
 }
+
+
 
 </style>

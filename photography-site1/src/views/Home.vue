@@ -1,10 +1,7 @@
 <template>
   <div class="home">
 
-
-
-      <div class="page">
-      <div class="content">
+      <div class="home-content">
 
           <img alt="Japanese-Colonel-Sanders" src="../assets/JCS.jpg">
           <!--<img class="photo" src="images/photos/JCS.jpg" alt="Japanese-Colonel-Sanders">    to be added back in later-->
@@ -17,12 +14,6 @@
       </div>
     <!-- rick astley quote -->
 
-    </div>
-
-    <div class="footer">
-      <a href="https://github.com/Ki11erRabbit/Creative-Project-3"> GitHub
-        <p>Made by Alec Davis and Louisa Dayton</p></a>
-    </div>
   </div>
 </template>
 
@@ -40,15 +31,22 @@
 }*/
 </script>
 
-<style>
-.content p{
+<style scoped>
+
+.home-content {
+  background-color: #fff9ec; /* warm tan-white color */
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.home-content p{
   display: flex;
   padding-left: 7%;
   padding-right: 7%;
   padding-top: 10%;
   padding-bottom: 10%;
 }
-.content img {
+.home-content img {
   padding-top: 1%;
   padding-left: 3%;
   padding-bottom: 1%;
