@@ -3,7 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/contact">Contact</router-link> |
-      <router-link to="/api">Photo Edit</router-link>
+      <router-link to="/api">Photo Editor</router-link>
     </div>
     <div class="page">
       <div class="content">
@@ -41,6 +41,7 @@ body {
 #nav a {
   font-weight: bold;
   color: #3c4253; /* a nice dark bluish grey */
+  text-decoration: none; 
 }
 
 #nav a.router-link-exact-active {
