@@ -1,7 +1,8 @@
 <template>
   <div class="api">
       <div class="api-content">
-          <h1>Upload an image to edit or edit the image below</h1>
+          <h1>Edit your own photos here!</h1>
+          <h2>Click on the image below to edit it, or upload your own image.</h2>
           <input type="file" accept="image/jpeg" @change=uploadImage>
 
           <PixoImage id="pImg" v-bind:src="src" @edited="updateSrc" />
@@ -19,7 +20,7 @@ export default {
     PixoImage
   },
   data: () => ({
-    src: 'https://www.peanuts.com/sites/default/files/cb-color.jpg',
+    src: 'https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80',
   }),
   methods: {
     updateSrc(src) {
@@ -48,7 +49,7 @@ export default {
   padding-top: 1%;
   padding-left: 3%;
   padding-bottom: 1%;
-  max-width: 30%;
+  max-width: 60%;
   object-fit: cover;
   display: flex;
 }
