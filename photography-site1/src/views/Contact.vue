@@ -14,7 +14,26 @@ I find myself in the world. I set up this website so that I may lend my passion 
 
 <!-- TODO replace with someone from this person does not exist <img class="photo" src="/images/photos/Picture-of-me.jpg" alt="photographer">-->
 
+  <h2>Put in Date and Time to reserve your free consultation</h2>
+  <h3>All times that I am freely available</h3>
+<template>
+  <v-calendar
+    :attributes='attributes'
+    />
+</template>
+
+
+
+  <div class="form">
+    <p>Put date and time as MM/DD/YYYY h:mm xM</p>
+      <input type="text">
+    <div class="button">
+      <input type="button" onclick="location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ';" value="reserve time now" />
+    </div>
+  </div>
 </div>
+
+
 </div>
 
 <div class="footer">
@@ -35,7 +54,180 @@ I find myself in the world. I set up this website so that I may lend my passion 
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 7%;
-  padding-bottom: 7%;
+  padding-bottom: 3%;
+}
+
+h2, h3 {
+  padding-bottom: 2%;
+}
+
+
+.form {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.form p{
+  text-align: center;
+  display: block;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.button{
+  padding-top: 1%;
 }
 
 </style>
+
+<script>
+const dateObject = new Date();
+const thisMonth = dateObject.getMonth()
+
+export default {
+  data() {
+    const todos = [
+      {
+        description: '7am - 8am',
+        isComplete: false,
+        dates: [
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+        ],
+        color: 'red',
+      },
+      {
+        description: '9am - 10am',
+        isComplete: false,
+        dates: [
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+        ],
+        color: 'indigo',
+      },
+      {
+        description: '1pm - 2pm',
+        isComplete: false,
+        dates: [
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+        ],
+        color: 'green',
+      },
+      {
+        description: '2pm - 3pm',
+        isComplete: false,
+        dates: [
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+        ],
+        color: 'orange',
+      },
+      {
+        description: '4pm - 5pm',
+        isComplete: false,
+        dates: [
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+        ],
+        color: 'yellow',
+      },
+      {
+        description: '7pm - 8pm',
+        isComplete: false,
+        dates: [
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+        ],
+        color: 'purple',
+      },
+      {
+        description: '9pm - 10pm',
+        isComplete: false,
+        dates: [
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+          new Date (2021, thisMonth, (Math.random()*31 +1)),
+        ],
+        color: 'pink',
+      },
+    ];
+    return {
+      incId: todos.length,
+      todos,
+    };
+  },
+  computed: {
+    attributes() {
+      return [
+        // Attributes for todos
+        ...this.todos.map(todo => ({
+          dates: todo.dates,
+          dot: {
+            color: todo.color,
+            class: todo.isComplete ? 'opacity-75' : '',
+          },
+          popover: {
+      label: todo.description,
+      visibility: 'click',
+      hideIndicator: true,
+          },
+          customData: todo,
+        })),
+      ];
+    },
+  },
+};
+
+
+
+
+</script>

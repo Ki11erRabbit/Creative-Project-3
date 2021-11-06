@@ -4,7 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/contact">Contact</router-link> |
       <router-link to="/api">Api</router-link>
-     
+
     </div>
     <router-view/>
   </div>
@@ -29,6 +29,7 @@
 
 #nav a {
   font-weight: bold;
+  color: #3c4253; /* a nice dark bluish grey */
 }
 
 #nav a.router-link-exact-active {
@@ -39,8 +40,10 @@
 * {
   margin: 0;
   padding: 0;
-  color: #3c4253; /* a nice dark bluish grey */
   box-sizing: border-box;
+}
+* a {
+  color: #3c4253; /* a nice dark bluish grey */
 }
 body {
   background-color: #d8dce5; /* blueish light grey */
@@ -55,6 +58,7 @@ body {
 
 .content {
   background-color: #fff9ec; /* warm tan-white color */
+  color: #3c4253; /* a nice dark bluish grey */
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;

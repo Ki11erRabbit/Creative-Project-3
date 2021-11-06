@@ -1,9 +1,22 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-
+import VCalendar from 'v-calendar';
 
 Vue.use(VueRouter)
+
+// Use v-calendar & v-date-picker components
+Vue.use(VCalendar, {
+  formats: {
+    title: "MMMM YYYY",
+    weekdays: "W",
+    navMonths: "MMM",
+    input: ["L", "YYYY-MM-DD", "YYYY/MM/DD"],
+    dayPopover: "L"
+  }
+});
+
+
 
 const routes = [
   {
